@@ -7,8 +7,3 @@ Furthermore, your model will be evaluated in a few-shot setting by means of the 
 
 
 You may use any method e.g., Transfer Learning, Prompting.
-Data
-• The training data contains context and question as input as well as the textual answers with their start characters in the context in answers.
-• Data on which you should do the predictions is missing the labels, i.e, the answers.
-• Your predictions should have the exact same format, i.e., a dict containing a list of answers
-(with the single prediction) as answers.
